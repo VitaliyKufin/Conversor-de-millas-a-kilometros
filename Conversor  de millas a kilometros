@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Conversor {
+    public static void main(String[] args) {
+        Scanner sc = new java.util.Scanner(System.in);
+        double milla;
+        double conversion;
+        System.out.println("Ingresar distancia en millas:");
+        milla = sc.nextDouble();
+        conversion = (milla * 1.60934);
+        System.out.println("La distancia en kilometros es: " + conversion);
+    }
+}
